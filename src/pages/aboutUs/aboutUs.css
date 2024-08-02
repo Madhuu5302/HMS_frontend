@@ -1,0 +1,28 @@
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.about-card {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: left;
+  max-width: 300px;
+}
+
+.about-image-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.about-image {
+  max-width: 200px;
+  height: auto;
+  border-radius: 50%;
+}

@@ -1,0 +1,54 @@
+.contact-us-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top:70px;
+  margin-bottom: 50px;
+}
+
+.StyledContactForm {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 80vh; 
+  margin-top: -5vh;
+}
+
+.StyledContactForm form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-bottom: 180px;
+}
+
+.StyledContactForm form input,
+.StyledContactForm form textarea {
+  width: 100%;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.StyledContactForm form input:focus,
+.StyledContactForm form textarea:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
+
+.StyledContactForm form label {
+  margin-top: 1rem;
+}
+
+.StyledContactForm form input[type="submit"] {
+  margin-top: 2rem;
+  cursor: pointer;
+  background: #84A98C;
+  color: white;
+  border: none;
+}
+
+.acknowledgment {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+}

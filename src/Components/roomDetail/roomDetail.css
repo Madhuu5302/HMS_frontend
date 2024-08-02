@@ -1,0 +1,31 @@
+.room-cards {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 30px; 
+}
+
+.room-card {
+    flex: 0 1 calc(33.33% - 20px); 
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.room-card h3 {
+    margin-top: 0;
+}
+
+.room-card p {
+    margin: 10px 0;
+}
+
+.room-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.room-card a:hover {
+    text-decoration: underline;
+}
