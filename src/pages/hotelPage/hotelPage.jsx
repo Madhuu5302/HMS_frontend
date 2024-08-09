@@ -33,12 +33,7 @@ function HotelPage() {
       <div className="listContainer">
         <div className="listWrapper">
           <div className="listResult">
-            {error ? (
-              <p>{error}</p>
-            ) : hotels.length === 0 ? (
-              <p>No hotels found.</p>
-            ) : (
-              hotels.map((hotel) => (
+            {error ? (<p>{error}</p>) : hotels.length === 0 ? (<p>No hotels found.</p>) : (hotels.map((hotel) => (
                 <SearchItem key={hotel.id} hotel={hotel} />
               ))
             )}

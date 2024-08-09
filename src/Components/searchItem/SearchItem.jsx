@@ -15,7 +15,7 @@ function SearchItem({ hotel }) {
         <span className="siDistance">{hotel.distance}</span>
         <span className="siTaxiOp">Free airport taxi</span>
         <span className="siSubtitle">{hotel.city}</span>
-        <span className="siFeatures">Free wifi,Car parking</span>
+        <span className="siFeatures">{hotel.desc}</span>
         <span className="siCancelOp">Free cancellation </span>
         <span className="siCancelOpSubtitle">
           You can cancel later, so lock in this great price today!
@@ -24,7 +24,7 @@ function SearchItem({ hotel }) {
       <div className="siDetails">
         <div className="siRating">
           <span>Excellent</span>
-          <button>8.9</button>
+          <button>{hotel.rating} </button>
         </div>
         <div className="siDetailTexts">
           <span className="siPrice">Rs.{hotel.cheapestPrice}</span>
